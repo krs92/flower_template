@@ -1,0 +1,28 @@
+{
+  "name": "flower",
+  "version": "1.0.0",
+  "description": "Template for flower shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krs92/flower_template.git"
+  },
+  "author": "\u0016",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krs92/flower_template/issues"
+  },
+  "homepage": "https://github.com/krs92/flower_template#readme",
+  "devDependencies": {
+  "surge": "latest",
+  "git-scripts": "0.2.1"
+},
+"git": {
+  "scripts": {
+    "pre-push": "surge --project ./ --domain flowershoponline.surge.sh"
+  }
+}
+}
